@@ -19,7 +19,7 @@ def main():
         '--mem-freq-offset',
         type=int,
         required=True,
-        help='Memory frequency offset value (e.g., 2600)'
+        help='Memory frequency offset value (e.g., 1300)'
     )
     parser.add_argument(
         '--power-limit',
